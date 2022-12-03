@@ -40,7 +40,7 @@ permissions:
       OpenInv.openoffline: true
 
 commands:
-  openinv:
+  invsee:
     aliases: [oi, inv, open]
     description: Open a player's inventory
     permission: OpenInv.openinv
