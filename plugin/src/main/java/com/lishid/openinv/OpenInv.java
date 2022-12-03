@@ -141,7 +141,7 @@ public class OpenInv extends JavaPlugin implements IOpenInv {
             pm.registerEvents(new InventoryListener(this), this);
 
             // Register commands to their executors
-            this.setCommandExecutor(new OpenInvCommand(this), "openinv", "openender");
+            this.setCommandExecutor(new OpenInvCommand(this), "invsee", "openender");
             this.setCommandExecutor(new SearchContainerCommand(this), "searchcontainer");
             this.setCommandExecutor(new SearchInvCommand(this), "searchinv", "searchender");
             this.setCommandExecutor(new SearchEnchantCommand(this), "searchenchant");
